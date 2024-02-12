@@ -14,11 +14,12 @@ void main()
 	low=0;
 	high=n-1;
 	flag=0;
-	for(i=0;i<n;i++)
-	{
-		mid=(low+high)/2;
+	
+	
+		
 		while(low<=high)
 		{
+			mid=(low+high)/2;
 			if (a[mid]==key)
 			{
 				pos=mid;
@@ -34,7 +35,7 @@ void main()
 				high=mid-1;
 			}
 		}
-	}
+	
 	printf("The Entered Array is \n");
 	for(i=0;i<n;i++)
 	{
